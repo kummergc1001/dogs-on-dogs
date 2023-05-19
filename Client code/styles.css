@@ -1,0 +1,65 @@
+ html{font: 1em sans-serif;}
+ footer>section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(images/navbackground.png); background-repeat: no-repeat;background-size: 90% 80%; background-position-x: right;
+  }
+  
+  header>img, h1 {
+    justify-self: flex-start;
+  }
+  
+  header>nav {
+    justify-self: flex-end;
+    margin: 2rem;
+    padding: 3rem;
+  }
+header>nav>a {
+    background-color: #a9a9a9;
+    padding: 15px 25px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px; font-size: larger;
+    border: 3px solid #2b93ad;
+border-radius: 30px;}
+header>nav>a:hover{color: black;background-color: #ccff66;}
+#dogpic>img{border: solid 5px #ccff66;margin: 5px;padding: 5px;}
+#shopindex{background-color: #2b93ad;margin: 10px;padding: 5px;display: flex;align-items: center;}
+main>#shopindex>a{    background-color: #a9a9a9;
+    padding: 15px 25px;
+    color: white;
+    margin: 4px 2px; font-size: larger;
+    border: 3px solid #2b93ad;
+    text-decoration: none;
+border-radius: 30px;}
+#shopindex>a:hover{color: black;background-color: #ccff66;}
+#whoareindex{border: solid 5px #ccff66;margin: 5px;padding: 5px;}
+footer{border: solid 5px #2b93ad;margin: 5px;padding: 5px; background-color: #a9a9a9;}
+#contactfooter,#socialfooter,#supportfooter{border: solid 5px #ccff66;margin: 5px;padding: 5px; background-color: white;}
+footer>img{border: solid 5px #a9a9a9;margin: 5px;padding: 5px;}
+#shop{background-color: #2b93ad; justify-content: space-around; flex-wrap: wrap;}
+#shop>img{align-items: center; margin: 5px; padding: 5px;}
+h2{ background-color: #0f2e4a;padding: 1%;color: white; font-size: large;}
+#upcomingevents{border: solid 5px #ccff66;margin: 5px;padding: 5px;}
+.calendar{border: solid 5px #2b93ad;margin: 5px;padding: 5px; width: 50%;}
+#recentnews{width: 50%;border: solid 5px #2b93ad;margin: 5px;padding: 5px;}
+.events{display: flex;}
+h3{color: #0f2e4a; border: #a9a9a9 2px solid; margin: 1px; padding: 1px;}
+.donatepls{border: solid 5px #2b93ad;margin: 5px;padding: 5px;}
+#volunteerinfo{border: solid 5px #ccff66;margin: 5px;padding: 5px;}
+#volunteerinfo>iframe{border: solid 5px #2b93ad;margin: 5px;padding: 5px;}
+#aboutus{border: solid 5px #2b93ad;margin: 5px;padding: 5px;}
+@media (max-width: 960px) {
+    nav { display: none; }
+    nav{ display: inline-block; }
+    main{flex-wrap: wrap;}
+    .calendar,#recentnews{width: 100%;}
+    #shopindex{flex-wrap: wrap;}}
